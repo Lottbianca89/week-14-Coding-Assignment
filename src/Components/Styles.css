@@ -1,0 +1,139 @@
+/* Styles */
+.container {
+  width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3498db; 
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3f1564;
+  color: #ffd700;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+section {
+  width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ecf0f1;
+}
+
+article {
+  background-color: #6c757d; /* Updated color */
+  color: #ffd700;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(7, 92, 123) rgba(132, 15, 97, 0.1);
+}
+
+
+img.thumbnail {
+  width: 120px;
+  height: 160px;
+  border-radius: 5px;
+}
+
+article > header {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #ecf0f1;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categories h4 {
+  margin: 5px 10px 0 0;
+  color: #3f1564;
+}
+
+.categories ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.starRating {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.starRating input[type="radio"] {
+  display: none;
+}
+
+.star-icon {
+  cursor: pointer;
+  transition: color 500ms;
+  color: #ff69b4;
+}
+
+.reviewFormContainer {
+  width: 400px;
+  margin: 20px 0;
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: normal;
+  font-size: 1.2em;
+  color: #ffd700;
+}
+
+fieldset label {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.reviewUser {
+  font-weight: bold;
+  color: #27ae60;
+  font-size: 1.1em;
+}
+
+.review {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #3498db;
+}
+
+.reviewsContainer {
+  width: 400px;
+  margin: 20px 0;
+  height: 250px;
+  overflow-y: auto;
+  background-color: #3f1564;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
